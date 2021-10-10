@@ -310,4 +310,3 @@ print("Error after subtracting max OV: {}".
 
 
 np.savetxt('final.npy', predicted_matrix, delimiter=",", fmt='%.3f')
- 
