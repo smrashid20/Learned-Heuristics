@@ -308,4 +308,5 @@ predicted_matrix = predicted_matrix - max
 print("Error after subtracting max OV: {}".
       format(np.mean(get_error(actual_full_distance_matrix, predicted_matrix)[0])))
 
+
 np.savetxt('final.npy', predicted_matrix, delimiter=",", fmt='%.3f')
